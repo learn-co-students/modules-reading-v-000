@@ -1,6 +1,9 @@
 require_relative "../lib/kid.rb"
 require_relative "../lib/ballerina.rb"
 
+puts Kid.metadata
+puts Ballerina.metadata
+
 angelina = Kid.new("Anglina")
 mikhail_barishnkov = Ballerina.new("Mikhail")
 
