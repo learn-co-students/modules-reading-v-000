@@ -3,3 +3,11 @@ require_relative "../lib/ballerina.rb"
 
 puts Kid.metadata
 puts Ballerina.metadata
+
+class Ballerina
+  extend MetaDancing
+end
+
+class Kid
+  extend MetaDancing
+end
