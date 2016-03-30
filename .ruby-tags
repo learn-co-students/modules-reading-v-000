@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ballerina	lib/ballerina.rb	/^class Ballerina$/;"	c
+Dance	lib/dance_module.rb	/^module Dance$/;"	m
+Kid	lib/kid.rb	/^class Kid$/;"	c
+MetaDancing	lib/class_methods_module.rb	/^module MetaDancing$/;"	m
+initialize	lib/ballerina.rb	/^  def initialize(name)$/;"	f	class:Ballerina
+initialize	lib/kid.rb	/^  def initialize(name)$/;"	f	class:Kid
+jump	lib/dance_module.rb	/^  def jump$/;"	f	class:Dance
+metadata	lib/class_methods_module.rb	/^  def metadata$/;"	f	class:MetaDancing
+pirouette	lib/dance_module.rb	/^  def pirouette$/;"	f	class:Dance
+take_a_bow	lib/dance_module.rb	/^  def take_a_bow$/;"	f	class:Dance
+twirl	lib/dance_module.rb	/^  def twirl$/;"	f	class:Dance
