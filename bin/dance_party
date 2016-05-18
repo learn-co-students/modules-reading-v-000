@@ -1,7 +1,8 @@
 require_relative "../lib/kid.rb"
 require_relative "../lib/ballerina.rb"
+require_relative "../lib/fancy_dance.rb"
 
-angelina = Kid.new("Anglina")
+angelina = Kid.new("Angelina")
 mikhail_barishnkov = Ballerina.new("Mikhail")
 
 puts "#{angelina.name} says: #{angelina.twirl}"
