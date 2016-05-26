@@ -1,5 +1,8 @@
 require_relative "../lib/kid.rb"
 require_relative "../lib/ballerina.rb"
+require 'pry'
 
 puts Kid.metadata
 puts Ballerina.metadata
+
+Pry.start
