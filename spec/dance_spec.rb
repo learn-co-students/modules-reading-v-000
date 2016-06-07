@@ -10,7 +10,7 @@ describe 'Dance module' do
   end
 
   it 'has a #pirouette method' do
-    expect(dummy_class.pirouette).to eq("I'm doing a pirouette")
+    expect(dummy_class.pirouette).to eq("I'm doing a pirouette.")
   end
 
   it 'has a #take_a_bow method' do
