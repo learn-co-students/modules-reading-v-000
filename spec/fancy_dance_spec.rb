@@ -18,10 +18,10 @@ describe 'FancyDance::InstanceMethods module' do
   end
 end
 
-describe 'FancyDance::ClassMethods module' do 
+describe 'FancyDance::ClassMethods module' do
   let(:dummy_class) {Class.new {extend FancyDance::ClassMethods}}
 
-  it 'has a metadata method' do 
+  it 'has a metadata method' do
     expect(dummy_class.metadata).to eq("This class produces objects that love to dance.")
   end
 end

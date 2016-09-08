@@ -278,4 +278,3 @@ If you want a module's methods to be used in another class as __class methods__,
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/modules-reading'>Intro to Modules</a> on Learn.co and start learning to code for free.</p>
-
