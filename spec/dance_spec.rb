@@ -1,4 +1,4 @@
-describe 'Dance module' do
+ puts describe 'Dance module' do
   let(:dummy_class) { Class.new { include Dance }.new }
 
   it 'has a #twirl method' do
