@@ -1,7 +1,7 @@
-puts describe 'FancyDance::InstanceMethods module' do
+ describe 'FancyDance::InstanceMethods module' do
   let(:dummy_class) { Class.new { include FancyDance::InstanceMethods }.new }
 
-  puts it 'has a #twirl method' do
+   it 'has a #twirl method' do
     expect(dummy_class.twirl).to eq("I'm twirling!")
   end
 
@@ -18,7 +18,7 @@ puts describe 'FancyDance::InstanceMethods module' do
   end
 end
 
-puts describe 'FancyDance::ClassMethods module' do
+ describe 'FancyDance::ClassMethods module' do
   let(:dummy_class) {Class.new {extend FancyDance::ClassMethods}}
 
   it 'has a metadata method' do

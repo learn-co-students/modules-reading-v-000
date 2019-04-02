@@ -1,4 +1,4 @@
-puts describe 'MetaDancing' do 
+ describe 'MetaDancing' do 
   let(:dummy_class) {Class.new {extend MetaDancing}}
 
   it 'has a metadata method' do
