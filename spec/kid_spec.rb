@@ -1,3 +1,4 @@
+
 describe 'Kid' do
   let(:kid) {Kid.new("Pat")}
 
