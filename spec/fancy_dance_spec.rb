@@ -1,7 +1,7 @@
-describe 'FancyDance::InstanceMethods module' do
+ describe 'FancyDance::InstanceMethods module' do
   let(:dummy_class) { Class.new { include FancyDance::InstanceMethods }.new }
 
-  it 'has a #twirl method' do
+   it 'has a #twirl method' do
     expect(dummy_class.twirl).to eq("I'm twirling!")
   end
 
@@ -18,10 +18,10 @@ describe 'FancyDance::InstanceMethods module' do
   end
 end
 
-describe 'FancyDance::ClassMethods module' do 
+ describe 'FancyDance::ClassMethods module' do
   let(:dummy_class) {Class.new {extend FancyDance::ClassMethods}}
 
-  it 'has a metadata method' do 
+  it 'has a metadata method' do
     expect(dummy_class.metadata).to eq("This class produces objects that love to dance.")
   end
 end
