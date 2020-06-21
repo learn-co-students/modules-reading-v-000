@@ -6,3 +6,12 @@ mikhail_baryshnikov = Dancer.new("Mikhail")
 
 puts "#{angelina.name} says: #{angelina.twirl}"
 puts "#{mikhail_baryshnikov.name} says: #{mikhail_baryshnikov.take_a_bow}"
+
+buster = Kid.new("Buster")
+puts "#{buster.name} says: #{buster.jump}"
+  # returns "Look how high I'm jumping!"
+puts "#{buster.name} says: #{buster.take_a_bow}"
+  # returns "Thank you, thank you. It was a pleasure to dance for you all."
+
+puts Dancer.metadata
+puts Kid.metadata
