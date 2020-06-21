@@ -4,7 +4,15 @@ require_relative './dance_module.rb'
 # file defines one module and specifies which methods
 require_relative './fancy_dance.rb'
 
-class Kid
+class Dancer
+=begin
+	# gives Kid access to Dance modules instance #'s
+	include Dance #=> module name
+	# how modules can call class#'s
+	extend MetaDancing #=> module name
+	# test references in bin dir w/files that call methods...run 'ruby bin/FILENAME
+=end
+
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
   
@@ -13,5 +21,4 @@ class Kid
 	def initialize(name)
 		@name = name
 	end
-
 end
